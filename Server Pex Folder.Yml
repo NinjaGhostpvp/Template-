@@ -4,8 +4,6 @@ groups:
     prefix: '&2[&aMember&2]&7 '
     build: true
     permissions:
-    - battlekits.use.<Starter>
-    - battlekits.use.<Member>
     - essentials.help
     - essentials.rules
     - essentials.motd
@@ -16,8 +14,8 @@ groups:
     - essentials.delhome
     - essentials.help
     - essentials.home
-    - essentials.kit
-    - essentials.kit.tools
+    - essentials.kit.Starter
+    - essentials.kit.Member
     - essentials.list
     - essentials.mail
     - essentials.mail.send
@@ -45,6 +43,7 @@ groups:
     - Member
     build: true
     permissions:
+    - essentials.kit.Vip
     - essentials.help
     - essentials.rules
     - essentials.motd
@@ -68,7 +67,9 @@ groups:
     - essentials.warp
     - essentials.warp.list
     - worldedit.
-    - worldguard.
+    - worldguard.   
+    - essentials.gamemode
+    - essentials.Fly
 
   Mod:
     default: false
