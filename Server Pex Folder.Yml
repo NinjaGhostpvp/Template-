@@ -28,13 +28,13 @@ groups:
     - essentials.seen
     - essentials.sethome
     - essentials.signs.use.disposal
+    - essentials.signs.use.
     - essentials.spawn
     - essentials.suicide
     - essentials.tpa
     - essentials.tpaccept
     - essentials.tpahere
     - essentials.tpdeny
-  
   Vip:
     default: false
     prefix: '&6[&eVIP&6]&6 '
@@ -48,8 +48,16 @@ groups:
     - essentials.rules
     - essentials.motd
     - essentials.fly
-    - essentials.fly
-    chatmanager
+Heler:
+Default: False
+Prefix:'&5l[&q&lHelper&5&L],
+ inheritance:
+    - Member
+     build: true
+     permissions:
+      essentials.Mute
+       essentials.fly
+        essentials.Nick
   Builder:
     default: false
     prefix: '&1[&8Builder&8]&f '
@@ -94,42 +102,107 @@ groups:
     -Builder
     - VIP
     - Member
-    - Guest
-    build: true
-    permissions:
-    - essentials.gamemode
-    - essentials.give
-    - essentials.god
-    - multiverse.core.
-    Devolper:
+-    - Guest
+-    build: true
+-    permissions:
+-    - essentials.gamemode
+-    - essentials.give
+-    - essentials.god
+-    - multiverse.core.
+Head-Admin:
     default: false
-    prefix: '&9[&aDevolper&9]&f '
+    prefix: '&9[&head-Admin&9]&f '
     inheritance:
     - Mod
-    Admin
     -Builder
     - VIP
     - Member
-    - Guest
-    build: true
-    permissions:
-    - essentials.gamemode
-    - essentials.give
-    - essentials.god
-    - multiverse.core.
-    - bukkit.command
-    - permissionfinder
+-    - Guest
+-    build: true
+-    permissions:
+-    - essentials.gamemode
+-    - essentials.give
+-    - essentials.god
+-    - multiverse.core.
+     - essentials.ban
+-  
+-      Devolper:
+-    default: false
+-    prefix: '&9[&aDevolper&9]&f '
+-    inheritance:
+-    - Mod
+-    Admin
+-    -Builder
+-    - VIP
+-    - Member
+-    - Guest
+-    build: true
+-    permissions:
+-    - essentials.gamemode
+-    - essentials.give
+-    - essentials.god
+-    - multiverse.core.
+-    - bukkit.command
+-    - permissionfinder
+  Devolper:
+-    default: false
+-    prefix: '&9[&aDevolper&9]&f '
+-    inheritance:
+-    - Mod
+-    Admin
+-    -Builder
+-    - VIP
+-    - Member
+-    - Guest
+-    build: true
+-    permissions:
+-    - essentials.gamemode
+-    - essentials.give
+-    - essentials.god
+-    - multiverse.core.
+-    - bukkit.command
+-    - permissionfinder  
+  Co-Owner:
+-    default: false
+-    prefix: '&5&l[[&6&lbCo-Owner&5&l]&f '
+-    inheritance:
+-    - Mod
+-    Admin
+-    -Builder
+-    - VIP
+-    - Member
+-    - Guest
+     - Devolper
+-    build: true
+-    permissions:
+-    - essentials.gamemode
+-    - essentials.give
+-    - essentials.god
+-    - multiverse.core.
+-    - bukkit.command
+-    - permissionfinder
+-  
+-  Owner:
+-    default: false
+-    prefix: '&6[&4Owner&6]&f '
+    inheritance:
+-    - Mod
+-    Admin
+-    - VIP-    
+     - Builder
+-    - Member
+-    - Guest
+     - Devolper
+-    build: true
+-    permissions:
+-  - multiverse.core.
+-users:
+-  General_K1lgor:
+-    group:
+-    - Owner
+-  Unlimited_Gaming :
+-    group:
+-    - Head-Admin
+- Sparky
++    
     
-  Owner:
-    default: false
-    prefix: '&6[&4Owner&6]&f '
-    build: true
-    permissions:
-  - multiverse.core.
-users:
-  exampleminecraftname:
-    group:
-    - Owner
-  exampleminecraftname2:
-    group:
-    - Admin
