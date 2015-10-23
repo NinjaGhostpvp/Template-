@@ -48,7 +48,7 @@ groups:
     - essentials.rules
     - essentials.motd
     - essentials.fly
-Heler:
+Helper:
 Default: False
 Prefix:'&5l[&q&lHelper&5&L],
  inheritance:
