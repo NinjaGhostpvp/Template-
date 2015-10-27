@@ -144,9 +144,9 @@ Head-Admin:
 -    - multiverse.core.
 -    - bukkit.command
 -    - permissionfinder
-  Devolper:
+  Head-Devolper:
 -    default: false
--    prefix: '&9[&aDevolper&9]&f '
+-    prefix: '&9[&aHead-Devolper&9]&f '
 -    inheritance:
 -    - Mod
 -    Admin
@@ -199,10 +199,9 @@ Head-Admin:
 -users:
 -  General_K1lgor:
 -    group:
--    - Owner
--  Unlimited_Gaming :
+-    - Head-Devolper
+-  50Calibre :
 -    group:
--    - Head-Admin
-- Sparky
-+    
+-    - Owner
+- 
     
